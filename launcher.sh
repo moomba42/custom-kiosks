@@ -1,4 +1,4 @@
 #!/bin/sh
 
-cd ~/rpi-audio-buttons-main
+cd /home/adlugosz/rpi-audio-buttons-main
 sudo python3 buttons.py

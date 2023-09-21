@@ -13,5 +13,5 @@ cd rpi-audio-buttons-main
 chmod 755 launcher.sh
 sudo crontab -e
 # Add the following line:
-# @reboot sh ~/rpi-audio-buttons-main/launcher.sh >~/logs/cronlog 2>&1
+# @reboot sh /home/adlugosz/rpi-audio-buttons-main/launcher.sh >/home/adlugosz/logs/cronlog 2>&1
 sudo reboot
