@@ -46,24 +46,24 @@ while True:
         os.system('omxplayer audio/gluszec.wav &')
 
     if button2.value:
-        os.system('omxplayer audio/jelen.mp3 &')
+        os.system('omxplayer audio/jelen.wav &')
 
     if button3.value:
-        os.system('omxplayer audio/nietoperze.mp3 &')
+        os.system('omxplayer audio/nietoperze.wav &')
 
     if button4.value:
-        os.system('omxplayer audio/orzel.mp3 &')
+        os.system('omxplayer audio/orzel.wav &')
 
     if button5.value:
-        os.system('omxplayer audio/pszczoly.mp3 &')
+        os.system('omxplayer audio/pszczoly.wav &')
 
     if button6.value:
-        os.system('omxplayer audio/sowa.mp3 &')
+        os.system('omxplayer audio/sowa.wav &')
 
     if button7.value:
-        os.system('omxplayer audio/wilk.mp3 &')
+        os.system('omxplayer audio/wilk.wav &')
 
     if button8.value:
-        os.system('omxplayer audio/zaby.mp3 &')
+        os.system('omxplayer audio/zaby.wav &')
 
     time.sleep(.25)
