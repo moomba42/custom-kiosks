@@ -50,11 +50,11 @@ class Player:
     
     def stop(self):
         if self.process is not None:
-            if self.process.poll() is None:
+            if self.process.poll() is not None:
                 self.process = None
             else:
                 try:
-                    self.process.stdin.write('q') # send quit command
+                    self.process.stdin.write(bytes('q', 'utf-8')) # send quit command
                     self.process.terminate()
                     self.process.wait()
                 except EnvironmentError as e:
