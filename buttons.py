@@ -35,27 +35,35 @@ while True:
     # omxplayer -o hdmi <file>
     # omxplayer -o both <file>
     if button1.value:
-        os.system('omxplayer audio/gluszec.wav &')
+        print("Button 1 pressed!")
+        # os.system('omxplayer audio/gluszec.wav &')
 
     if button2.value:
-        os.system('omxplayer audio/jelen.wav &')
+        print("Button 2 pressed!")
+        # os.system('omxplayer audio/jelen.wav &')
 
     if button3.value:
-        os.system('omxplayer audio/nietoperze.wav &')
+        print("Button 3 pressed!")
+        # os.system('omxplayer audio/nietoperze.wav &')
 
     if button4.value:
-        os.system('omxplayer audio/orzel.wav &')
+        print("Button 4 pressed!")
+        # os.system('omxplayer audio/orzel.wav &')
 
     if button5.value:
-        os.system('omxplayer audio/pszczoly.wav &')
+        print("Button 5 pressed!")
+        # os.system('omxplayer audio/pszczoly.wav &')
 
     if button6.value:
-        os.system('omxplayer audio/sowa.wav &')
+        print("Button 6 pressed!")
+        # os.system('omxplayer audio/sowa.wav &')
 
     if button7.value:
-        os.system('omxplayer audio/wilk.wav &')
+        print("Button 7 pressed!")
+        # os.system('omxplayer audio/wilk.wav &')
 
     if button8.value:
-        os.system('omxplayer audio/zaby.wav &')
+        print("Button 8 pressed!")
+        # os.system('omxplayer audio/zaby.wav &')
 
     time.sleep(.25)
