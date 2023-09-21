@@ -5,8 +5,10 @@ import digitalio
 import logging
 from subprocess import Popen, PIPE, DEVNULL
 
+logging.basicConfig()
 logger = logging.getLogger(__name__)
-logger.log("Audio buttons started")
+logger.setLevel(logging.INFO)
+logger.info("Audio buttons started")
 
 button1 = digitalio.DigitalInOut(board.D2)
 button1.direction = digitalio.Direction.INPUT
