@@ -43,27 +43,27 @@ while True:
     # omxplayer -o hdmi <file>
     # omxplayer -o both <file>
     if button1.value:
-        os.system('cvlc audio/gluszec.wav --play-and-exit &')
+        os.system('omxplayer audio/gluszec.wav &')
 
     if button2.value:
-        os.system('cvlc audio/jelen.mp3 --play-and-exit &')
+        os.system('omxplayer audio/jelen.mp3 &')
 
     if button3.value:
-        os.system('cvlc audio/nietoperze.mp3 --play-and-exit &')
+        os.system('omxplayer audio/nietoperze.mp3 &')
 
     if button4.value:
-        os.system('cvlc audio/orzel.mp3 --play-and-exit &')
+        os.system('omxplayer audio/orzel.mp3 &')
 
     if button5.value:
-        os.system('cvlc audio/pszczoly.mp3 --play-and-exit &')
+        os.system('omxplayer audio/pszczoly.mp3 &')
 
     if button6.value:
-        os.system('cvlc audio/sowa.mp3 --play-and-exit &')
+        os.system('omxplayer audio/sowa.mp3 &')
 
     if button7.value:
-        os.system('cvlc audio/wilk.mp3 --play-and-exit &')
+        os.system('omxplayer audio/wilk.mp3 &')
 
     if button8.value:
-        os.system('cvlc audio/zaby.mp3 --play-and-exit &')
+        os.system('omxplayer audio/zaby.mp3 &')
 
     time.sleep(.25)
