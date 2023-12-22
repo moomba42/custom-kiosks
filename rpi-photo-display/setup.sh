@@ -1,7 +1,7 @@
 sudo apt-get update -y
 sudo apt-get upgrade -y
 sudo apt-get install -y python3-pip
-sudo pip3 install tkinter pillow
+sudo apt-get install -y python3-pil python3-pil.imagetk
 
 cd ~
 mkdir logs
