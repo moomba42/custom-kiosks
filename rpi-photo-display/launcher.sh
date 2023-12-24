@@ -1,5 +1,5 @@
-#!/bin/sh
+#!/bin/bash
 
-cd /home/adlugosz/custom-kiosks-main/rpi-photo-display
 export DISPLAY=:0.0
+sleep 5
 feh -F photo.jpg
